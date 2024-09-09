@@ -188,7 +188,7 @@ ${o}`);return}throw lg(e.error,e.error_description,e.suberror)?new tn(e.error,e.
 
 
 
-<div class="content" id="content" ref="container" mousemove.trigger="onMouseMoveDivider($event)">
+<div class="main-content" id="content" ref="container" mousemove.trigger="onMouseMoveDivider($event)">
 
   <!-- email list -->
   <div class="col-emails" ref="col1">
@@ -234,7 +234,7 @@ ${o}`);return}throw lg(e.error,e.error_description,e.suberror)?new tn(e.error,e.
 
 
 
-<template ref="templ" title="asdf" style.bind="styleObj"> 
+<template ref="templ" title="asdf" class="container-fluid" style.bind="styleObj"> 
 
   <div class="row" id="app">
 
